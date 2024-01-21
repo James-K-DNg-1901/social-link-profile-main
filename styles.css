@@ -1,0 +1,83 @@
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  color: white;
+  font-family: "Inter", sans-serif;
+  padding: 4rem;
+}
+body .card-wrapper {
+  background-color: hsl(0, 0%, 8%);
+  width: 25rem;
+  padding: 2rem 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 1rem;
+  transition: all;
+  transition-duration: 2s;
+  transition-timing-function: ease-in-out;
+}
+@media (max-width: 500px) {
+  body .card-wrapper {
+    width: 16rem;
+  }
+}
+body .card-wrapper img {
+  width: 7rem;
+  border-radius: 100%;
+  margin: 1rem 0;
+}
+@media (max-width: 500px) {
+  body .card-wrapper img {
+    width: 5rem;
+    border-radius: 100%;
+  }
+}
+body .card-wrapper h1 {
+  font-weight: 400;
+}
+@media (max-width: 500px) {
+  body .card-wrapper h1 {
+    font-size: 1.5rem;
+  }
+}
+body .card-wrapper b {
+  color: hsl(75, 94%, 57%);
+  word-spacing: 2px;
+  letter-spacing: 1px;
+  margin-bottom: 1rem;
+}
+@media (max-width: 500px) {
+  body .card-wrapper b {
+    font-size: 0.7rem;
+  }
+}
+@media (max-width: 500px) {
+  body .card-wrapper p {
+    font-size: 0.8rem;
+  }
+}
+body .card-wrapper div {
+  background-color: hsl(0, 0%, 12%);
+  font-weight: 600;
+  width: 100%;
+  height: 4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0.6rem 0;
+  border-radius: 0.5rem;
+  cursor: pointer;
+}
+@media (max-width: 500px) {
+  body .card-wrapper div {
+    height: 3rem;
+  }
+}
+body .card-wrapper div:hover {
+  background-color: hsl(0, 0%, 20%);
+}/*# sourceMappingURL=styles.css.map */
